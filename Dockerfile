@@ -18,4 +18,4 @@ RUN cargo build --release
 
 EXPOSE 8080
 
-RUN /app/target/release/hello
+CMD /app/target/release/hello
